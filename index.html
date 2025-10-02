@@ -213,6 +213,18 @@
     const sidebar = document.querySelector('.sidebar');
     menuIcon.addEventListener('click', () => {
       sidebar.style.left = sidebar.style.left === "0px" ? "-250px" : "0px";
+        
+    menuIcon.addEventListener('click', () => {
+      sidebar.style.left = "0"; 
+    });
+
+    sidebar.addEventListener('mouseenter', () => {
+      sidebar.style.left = "0";
+    });
+
+    sidebar.addEventListener('mouseleave', () => {
+      sidebar.style.left = "-250px"; 
+    });
     });
   </script>
 </body>
