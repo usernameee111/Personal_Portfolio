@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="style_portfolio.css">
 </head>
 <body>
+  <video autoplay muted loop id="bg-video">
+  <source src="./Photos/ezgif-287559ce20dce3.mp4" type="video/mp4">
+  Your browser does not support the video tag.</video>
   <div class="container">
     <!-- Menu icon part -->
     <header>
@@ -214,10 +217,6 @@
     menuIcon.addEventListener('click', () => {
       sidebar.style.left = sidebar.style.left === "0px" ? "-250px" : "0px";
         
-    menuIcon.addEventListener('click', () => {
-      sidebar.style.left = "0"; 
-    });
-
     sidebar.addEventListener('mouseenter', () => {
       sidebar.style.left = "0";
     });
