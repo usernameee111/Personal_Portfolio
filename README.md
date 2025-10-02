@@ -48,7 +48,7 @@ I wanted to create everything from scratch instead of using a ready-made templat
 
 ## 🌐 Live Demo
 
-Deployed on **Netlify**: [Portfolio Live Site](https://your-netlify-link.netlify.app)
+Deployed on **Netlify**: [Portfolio Live Site] https://shamsgodaportfolio.netlify.app/
 
 ---
 
